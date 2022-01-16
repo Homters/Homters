@@ -28,7 +28,7 @@ html {
 
 /* Para bordear una imagen o una figura, usar esos codigos en css*/
 img {
-    width: 100px;
+    width: 50px;
     background-color: grey;
     border-radius: 50%;
     box-shadow: 0px 0px 5px black;
