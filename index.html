@@ -1,29 +1,27 @@
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homters.com</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-   <div class="Container">
-    <div class="Cabezera">
-        <img src="./Fotos/mi foto.jpeg" alt="Login Image">
-   </div>
-   <div class="Cuerpo"> 
-       <h1>Iniciar Sesion</h1>
-       <form class="formulario">
-           <input type="text" name="nombre"
-           placeholder="Nombre" required>
-           <input type="passaword" name="contrase&ntilde;a"
-            placeholder="contrase&ntilde;a" required>
-            <input type="submit" value="Entrar" 
-            class="submit">
-       </form>
-       <h3 class="loss">
-           <a href="https://www.youtube.com/watch?v=u3IEZG6b818" target="_blank"> 
-               Olvidaste tu Contrase&ntilde;a?
-           </a>
-       </h3>
-   </div>
-</body>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="diseño.css">
+        <title>👊🏻 🧻 ✂️</title>
+    </head>
+    <body>
+        <h1>👊🏻 🧻 ✂️</h1>
+        <div id="campo-batalla" class="campo-batalla">
+            <div id="img-ataque-jugador" class="caja-batalla"><!--<img class="img-batalla" src="assets/Papel.PNG" alt="">--></div>
+            <div class="caja-batalla"><p class="text-mensajes">VS</p></div>
+            <div id="img-ataque-pc" class="caja-batalla"><!--<img class="img-batalla" src="assets/Piedra.PNG" alt="">--></div>
+        </div>
+        <div>
+            <p id="msj-batalla" class="text-mensajes"> </p>
+        </div>
+        <h2>Elije un ataque</h2>
+        <div>
+            <img id="btn-piedra" class="btn-ataques" src="assets/Piedra.PNG" alt="">
+            <img id="btn-papel" class="btn-ataques" src="assets/Papel.PNG" alt="">
+            <img id="btn-tijeras" class="btn-ataques" src="assets/Tijeras.PNG" alt="">
+        </div>
+        <script src="juego.js"></script>
+    </body>
 </html>
